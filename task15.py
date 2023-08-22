@@ -5,7 +5,7 @@
 Пользователь вводит одно число N – количество арбузов. Вторая строка содержит N чисел,
 записанных на новой строчке каждое. Здесь каждое число – это масса соответствующего арбуза
 """
-"""watermelons = int(input("Input quality of watermelons: "))
+watermelons = int(input("Input quality of watermelons: "))
 max = int(input("Input watermelon mass: "))
 min = max
 for i in range(watermelons-1):
@@ -15,4 +15,4 @@ for i in range(watermelons-1):
     else:
         if mass < min:
             min = mass
-print(min, max)"""
+print(min, max)
