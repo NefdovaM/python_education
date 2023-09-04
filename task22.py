@@ -7,15 +7,13 @@
 numbers1 = list()
 numbers2 = list()
 
-
-count1 = int(input("Enter the number of elements of the first set: "))
-for _ in range(count1):
+arr1 = int(input("Enter the number of elements of the first set: "))
+for _ in range(arr1):
     numbers1.append(int(input("Enter an element of the first set: ")))
 
-count2 = int(input("Enter the number of elements of the second set: "))    
-for _ in range(count2):
+arr2 = int(input("Enter the number of elements of the second set: "))    
+for _ in range(arr2):
     numbers2.append(int(input("Enter an element of the second set: ")))
-
 
 print(*numbers1)
 print(*numbers2)
