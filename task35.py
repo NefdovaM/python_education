@@ -3,7 +3,7 @@
 # Напоминание: Простое число - это число, которое
 # имеет 2 делителя: 1 и n(само число)
 # Input: 5
-# Output: yes
+# Output: yes 
 
 def simple(n):
     for div in range(2, int(n**0.5)+1):
